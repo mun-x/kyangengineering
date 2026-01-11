@@ -314,30 +314,15 @@ export const serviceData = {
   },
   acDucting: {
     en: {
-      title: 'AC Ducting Services',
-      subtitle: 'Air Conditioning Ductwork Design & Installation',
+      title: 'AC Ducting air-flow endorsement',
+      subtitle: 'Air Conditioning Ductwork air flow',
       description: 'Professional AC ducting solutions for commercial and industrial facilities.',
       processTitle: 'Service Process',
       process: [
         {
-          step: 'Site Survey',
-          description: 'Detailed measurement and assessment',
-          duration: '1-2 days'
-        },
-        {
           step: 'System Design',
-          description: 'Custom ductwork design',
+          description: 'Custom ductwork design / Review ductwork air-flow design',
           duration: '3-5 days'
-        },
-        {
-          step: 'Fabrication',
-          description: 'Manufacturing of ductwork components',
-          duration: '5-7 days'
-        },
-        {
-          step: 'Installation',
-          description: 'Professional installation',
-          duration: '5-10 days'
         },
         {
           step: 'Testing',
@@ -350,11 +335,10 @@ export const serviceData = {
         'Professional site survey',
         'Custom ductwork design',
         'Material specification',
-        'Ductwork fabrication',
         'Professional installation',
         'System testing'
       ],
-      totalDuration: 'Total Timeline: 3-5 weeks'
+      totalDuration: 'Total Timeline: 1-2 weeks'
     },
     zh: {
       title: '空调管道服务',
@@ -363,24 +347,9 @@ export const serviceData = {
       processTitle: '服务流程',
       process: [
         {
-          step: '现场调查',
-          description: '详细测量和评估',
-          duration: '1-2天'
-        },
-        {
           step: '系统设计',
           description: '定制管道设计',
           duration: '3-5天'
-        },
-        {
-          step: '制造',
-          description: '制造管道组件',
-          duration: '5-7天'
-        },
-        {
-          step: '安装',
-          description: '专业安装',
-          duration: '5-10天'
         },
         {
           step: '测试',
@@ -393,11 +362,10 @@ export const serviceData = {
         '专业现场调查',
         '定制管道设计',
         '材料规格',
-        '管道制造',
         '专业安装',
         '系统测试'
       ],
-      totalDuration: '总时间：3-5周'
+      totalDuration: '总时间：1-2周'
     }
   },
   heatLoad: {
@@ -409,23 +377,13 @@ export const serviceData = {
       process: [
         {
           step: 'Data Collection',
-          description: 'Gather building specifications',
+          description: 'Gather building specifications & electrical usage',
           duration: '1-2 days'
-        },
-        {
-          step: 'Site Survey',
-          description: 'On-site measurement',
-          duration: '1 day'
         },
         {
           step: 'Load Calculation',
           description: 'Comprehensive heat load analysis',
           duration: '2-3 days'
-        },
-        {
-          step: 'Equipment Sizing',
-          description: 'Recommend HVAC equipment capacity',
-          duration: '1-2 days'
         },
         {
           step: 'Report Delivery',
@@ -442,7 +400,7 @@ export const serviceData = {
         'Energy efficiency recommendations',
         'Detailed calculation report'
       ],
-      totalDuration: 'Total Timeline: 2-3 weeks'
+      totalDuration: 'Total Timeline: 1-2 weeks'
     },
     zh: {
       title: '热负荷计算',
@@ -452,23 +410,13 @@ export const serviceData = {
       process: [
         {
           step: '数据收集',
-          description: '收集建筑规格',
+          description: '审查制图及电机容量',
           duration: '1-2天'
-        },
-        {
-          step: '现场调查',
-          description: '现场测量',
-          duration: '1天'
         },
         {
           step: '负载计算',
           description: '全面热负荷分析',
           duration: '2-3天'
-        },
-        {
-          step: '设备尺寸',
-          description: '推荐设备容量',
-          duration: '1-2天'
         },
         {
           step: '报告交付',
@@ -485,7 +433,7 @@ export const serviceData = {
         '能效建议',
         '详细计算报告'
       ],
-      totalDuration: '总时间：2-3周'
+      totalDuration: '总时间：1-2周'
     }
   }
 };
