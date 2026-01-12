@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 import { translations } from '../data/translations';
 import { serviceKeys } from '../data/serviceData';
 
@@ -44,6 +44,14 @@ function Footer({ language, navigateTo }) {
           <div className="footer-section">
             <h3 className="footer-heading">{t.contact.title}</h3>
             <div className="footer-contact">
+              <div className="footer-contact-item">
+                <MapPin size={14} />
+                <span>1 Yishun Industrial Street 1, #05-25 A'Posh BizHub, Singapore 768160</span>
+              </div>
+              <div className="footer-contact-item">
+                <Phone size={14} />
+                <span>6734 8727</span>
+              </div>
               <div className="footer-contact-item">
                 <Mail size={14} />
                 <span>kyangengineering@gmail.com</span>
