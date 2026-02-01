@@ -50,7 +50,7 @@ function Footer({ language, navigateTo }) {
               </div>
               <div className="footer-contact-item">
                 <Phone size={14} />
-                <span>6734 8727</span>
+                <span>6734 8727 / 8878 0000</span>
               </div>
               <div className="footer-contact-item">
                 <Mail size={14} />

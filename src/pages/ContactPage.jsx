@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Clock, MessageCircle } from 'lucide-react';
+import { Mail, Clock, MessageCircle, Phone } from 'lucide-react';
 import { translations } from '../data/translations';
 
 function ContactPage({ language }) {
@@ -40,6 +40,20 @@ function ContactPage({ language }) {
               <Mail size={20} />
               <span>{language === 'en' ? 'Send Email' : '发送电子邮件'}</span>
             </a>
+          </div>
+
+          {/* Phone Card */}
+          <div className="contact-card">
+            <div className="contact-card-icon-small">
+              <Phone size={24} />
+            </div>
+            <h3 className="contact-card-subtitle">
+              {language === 'en' ? 'Call Us' : '致电我们'}
+            </h3>
+            <div className="hours-list">
+              <p>{language === 'en' ? 'Office: ' : '办公室：'}6734 8727</p>
+              <p>{language === 'en' ? 'Mobile: ' : '手机：'}8878 0000</p>
+            </div>
           </div>
 
           {/* Business Hours Card */}
