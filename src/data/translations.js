@@ -57,7 +57,7 @@ export const translations = {
       heatLoad: '热负荷计算'
     },
     hero: {
-      title: 'K.Yang Engineering Pte Ltd',
+      title: '健阳工程私人有限公司',
       tagline: '您的安全，我们的承诺',
       since: '成立于2007年'
     },

@@ -359,7 +359,10 @@ body {
 
 /* ==================== Home Page Styles ==================== */
 .hero-section {
-  background: linear-gradient(to bottom right, #111827, #1f2937);
+  background: linear-gradient(to bottom right, rgba(17, 24, 39, 0.75), rgba(31, 41, 55, 0.75)), url('/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
   padding: 5rem 1rem;
 }
@@ -374,6 +377,7 @@ body {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 @media (min-width: 768px) {
@@ -386,6 +390,7 @@ body {
   font-size: 1.25rem;
   color: #d1d5db;
   margin-bottom: 2rem;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 @media (min-width: 768px) {

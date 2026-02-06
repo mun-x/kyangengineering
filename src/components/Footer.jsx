@@ -18,7 +18,7 @@ function Footer({ language, navigateTo }) {
                 alt="K.Yang Engineering" 
                 className="footer-logo-image"
               />
-              <div className="footer-company-name">K.Yang Engineering</div>
+              <div className="footer-company-name">{language === 'zh' ? '健阳工程' : 'K.Yang Engineering'}</div>
             </div>
             <p className="footer-tagline">{t.hero.tagline}</p>
           </div>
@@ -61,7 +61,7 @@ function Footer({ language, navigateTo }) {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; 2025 K.Yang Engineering Pte Ltd. All rights reserved.</p>
+          <p>&copy; 2025 {language === 'zh' ? '健阳工程私人有限公司' : 'K.Yang Engineering Pte Ltd'}. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -37,7 +37,7 @@ function Header({ navigateTo, language, setLanguage, currentPage }) {
               className="logo-image"
             />
             <div className="logo-text">
-              <div className="company-name">K.Yang Engineering</div>
+              <div className="company-name">{language === 'zh' ? '健阳工程' : 'K.Yang Engineering'}</div>
               <div className="company-tagline">{t.hero.since}</div>
             </div>
           </div>
